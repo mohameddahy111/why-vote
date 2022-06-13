@@ -1,0 +1,43 @@
+.contanier {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  gap: 30px;
+  align-items: center;
+  margin: auto;
+  max-width: 1024px;
+}
+.boxImage {
+  display: flex;
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 0.5px dashed gray;
+  color: gray;
+}
+.checkBox{
+    width: 300px;
+    color: gray;
+    
+}
+.input{
+    width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notePublic{
+  font-size: 12px;
+}
+.form{
+    width: 50%;
+    margin-top: 40px;
+
+}
+.website{
+    background-color:#bbdff851;
+    height: 55px;
+}

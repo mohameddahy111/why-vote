@@ -1,0 +1,33 @@
+.contanier {
+  margin: 20px;
+}
+.box {
+  display: flex;
+  gap: 10px;
+}
+.input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.addButton {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.list {
+  display: flex;
+  float: left;
+  align-items: center;
+}
+.list li {
+  background-color: rgba(195, 195, 245, 0.58);
+  margin: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
